@@ -10,7 +10,9 @@ body {
 
 .white{
     background-color: white;
+    padding: 80px;
 }
+
 .veryTop {  
     display: flex;
     justify-content: space-around;
@@ -43,7 +45,7 @@ a {
     padding: 30px;
 }
 
-img {
+.main {
     height: 300px;
     box-shadow: 10px 10px 5px rgb(30, 30, 30);
 }
@@ -76,4 +78,76 @@ img {
     background: #3882F6;
     padding: 20px;
     align-self: flex-start;
+}
+
+.center{
+    text-align: center;
+    margin: 24px;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.sectionTwo {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+}
+
+.gray{
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 600px;
+}
+
+.creater{
+    font-weight: bold;
+    font-size: 24px;
+    align-self: center;
+}
+
+.s3{
+    border-radius: 25px;
+    background: #3882F6;
+    display: flex;
+    padding: 80px;
+    justify-content: space-around;
+    margin: 100px;
+    width: 840px;
+}
+
+.topText{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.botText{
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+.buttonTwo{
+    color: white;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px;
+    width: 110px;
+    height: 10px;
+}
+
+.s4{
+    background: #1F2937;
+    color: #E5E7EB;
+    font-size: 16px;
+    padding: 44px;
+    text-align: center;
 }
